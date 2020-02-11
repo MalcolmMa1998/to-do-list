@@ -35,6 +35,6 @@
 
 ### 2. Redux Flow
 
-![Image text](Redux Flow.PNG)
+![Image](Redux Flow.PNG)
 
 
