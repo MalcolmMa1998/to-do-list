@@ -8,6 +8,14 @@ class TodoItem extends Component {
         this.handleClick = this.handleClick.bind(this);
     }
 
+    shouldComponentUpdate(nextProps, nextState) {
+        if(nextProps.content !== this.props.content){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     render() {
         return (
             <div onClick={this.handleClick}>
@@ -25,10 +33,6 @@ TodoItem.propTypes = {
     content: PropTypes.string,
     deleteItem: PropTypes.func,
     index: PropTypes.number
-}
-
-TodoItem.defaultProps = {
-    test: 'Hello World',
 }
 
 export default TodoItem;
