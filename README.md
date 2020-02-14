@@ -3,7 +3,7 @@
 
 ## 知识点汇总
 
-### 1. 生命周期函数
+### 1. React 生命周期函数
 生命周期函数指在某一个时刻组件会自动调用执行的函数
 
 #### (1) componentWillMount()
@@ -33,9 +33,14 @@
 #### (7) componentWillUnmount()
 当这个组件即将被从页面中剔除的时候，才会执行
 
-### 2. Redux Flow
-
+### 2. Redux
+#### (1) Redux Flow
 ![Image](ReduxFlow.PNG)
+
+#### (2) Redux Middleware
+![Image](Redux_Midware.jpg)
+
+
 
 
 
